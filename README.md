@@ -4,8 +4,15 @@
 
 ## 配置数据库
 
-- 创建名为 `ynote` 的数据库，字符集使用 utf-8
-- 执行 `ynote-server` 目录下的 `ynote.sql` 文件
+进如 `ynote-server` 目录下
+
+```shell
+pwd
+# 获取当前目录的位置
+mysql -u 用户名 -p 密码
+source 当前目录位置/ynote.sql
+exit;
+```
 
 ## 工程启动
 
