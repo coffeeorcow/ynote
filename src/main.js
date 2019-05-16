@@ -16,9 +16,9 @@ Vue.use(mavonEditor);
 Vue.prototype.$markdownIt = mavonEditor.markdownIt;
 
 // axios 配置
-const baseURL = 'http://localhost:8888';
+const baseURL = '';
 Vue.prototype.$baseURL = baseURL;
-axios.defaults.baseURL = baseURL;
+// axios.defaults.baseURL = baseURL;
 // axios.defaults.headers['Content-Type']= 'application/x-www-form-urlencoded;charset=UTF-8';
 Vue.use(VueAxios, axios);
 

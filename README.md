@@ -1,6 +1,6 @@
 # ynote
 
-> 预装：Mysql 5.*, Java 8+, Node 10, Yarn
+> 预装：Mysql 5.*, Java 8+
 
 ## 配置数据库
 
@@ -14,7 +14,18 @@ source 当前目录位置/ynote.sql
 exit;
 ```
 
-## 工程启动
+## 运行项目
+
+```shell
+# 如果不加后面的参数，默认用户名为root，密码为123456，端口8888
+java -jar ynote.jar --spring.datasource.username=用户名 --spring.datasource.password=密码 --server.port=8888
+
+```
+
+## 开发
+
+> 预装：Mysql 5.*, Java 8+, Node 10, Yarn
+
 
 ### 启动服务器
 
